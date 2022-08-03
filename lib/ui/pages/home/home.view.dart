@@ -3,6 +3,7 @@ library home_view;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:queritelpractical/app/theme.dart';
+import 'package:queritelpractical/ui/pages/details/details.view.dart';
 import 'package:queritelpractical/ui/widgets/mycard.widget.dart';
 
 import 'package:queritelpractical/ui/widgets/mynavbarlogo.widget.dart';

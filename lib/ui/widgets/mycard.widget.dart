@@ -19,13 +19,10 @@ class MyCard extends StatelessWidget {
           onTap: onPressed,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(10),
-            child: Hero(
-              tag: imageURL,
-              child: FadeInImage(
-                placeholder: AssetImage('assets/images/petPlaceholder.png'),
-                image: NetworkImage(imageURL),
-                fit: BoxFit.fill,
-              ),
+            child: FadeInImage(
+              placeholder: AssetImage('assets/images/petPlaceholder.png'),
+              image: NetworkImage(imageURL),
+              fit: BoxFit.fill,
             ),
           ),
         ),

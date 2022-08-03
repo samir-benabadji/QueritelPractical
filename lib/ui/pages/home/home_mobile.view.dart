@@ -39,7 +39,9 @@ class _HomeMobile extends StatelessWidget {
         child: MyCard(
           imageURL: data.photo,
           name: data.name,
-          onPressed: () {},
+          onPressed: () {
+            Get.to(DetailsView(model: data));
+          },
         ),
       );
     }).toList();
@@ -52,7 +54,9 @@ class _HomeMobile extends StatelessWidget {
         child: MyCard(
           imageURL: data.photo,
           name: data.name,
-          onPressed: () {},
+          onPressed: () {
+            Get.to(DetailsView(model: data));
+          },
         ),
       );
     }).toList();
